@@ -7,18 +7,21 @@
   </head>
   <body>
     <p> To do List Practice 1 </p>
-    <input type="text" placeholder="To do Name" class="js-name-input">
-    <button onclick="
-      addTodo();
-    ">Add</button>
 
-    <!-- <p> To do List Practice 2 </p>
-    <input type="text" placeholder="To do Name" class="js-name-input">
-    <button onclick="
-      addTodo();
-    ">Add</button> -->
+    <div class="todo-input-grid">
+      <input type="text" placeholder="To do Name" class="js-name-input name-input">
 
-    <div class="js-todo-list">
+      <input type="date"
+        class="js-due-date-input due-date-input">
+
+      <button onclick="
+        addTodo();
+      ">Add</button>
+
+    </div>
+
+
+    <div class="js-todo-list todo-grid" >
 
     </div>
 
